@@ -8,3 +8,9 @@ h1, p{
 h1, p {
 	text-align:center;
 }
+p{
+	font-style:italic;
+}
+p{
+	text-decoration:underline;
+}
