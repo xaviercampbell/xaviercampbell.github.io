@@ -16,10 +16,16 @@ h1{
 }
 p{
 	font-size:18px;
+
+	font-style:italic;
+	
+	text-decoration:underline;
+}
+/*p{
+	font-size:18px;
 }
 p{
 	font-style:italic;
 }
 p{
-	text-decoration:underline;
-}
+	text-decoration:underline;*/
