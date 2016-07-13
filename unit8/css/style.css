@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+body{
+	background-color: #6f0e65;
+	font-size: 24px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.wrapper{
+	width:80%;
+	line-height: 1.5em;
+	margin: 0 5em;
+}
+.focialpoint{
+	text-align: center;
+}
+#logo{
+	float: left;
+	width: 5%;
+}
+ #fpone{
+	font-family: 'Lora', serif;
+	color: #00cc33;
+	font-size: 4em;
+	border: none;
+}
+#fptwo{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1em;
+	color: white;
+	line-height: 1em;
+	border: none;
+}
+#hearts{
+	color:red;
+}
+#heroimg{
+	display: block;
+	width: 50%;
+	padding: .5em;
+	margin: 0 10em;
+}
+#focialpoint{
+	background-color: #3300ff;
+	padding: 2em;
+	border: .5em solid black;
+	margin: 0 2em 0 2em;
+}
+nav a{
+	float:right;
+	padding: .2em;
+	margin: .2 7em .2em 2em;
+	color: #FFEE00;
+	text-align:center;
+}
+a:hover{
+	background-color: red;
+}
+
+article{
+	float: left;
+	padding: 2em;
+	border: 1.5em;
+	width: 50%;
+	background-color: #6e64a1;
+	/*#3510f2*/
+}
+aside{
+	float: right;
+	padding: 2em;
+	border: 1.5em;
+	width: 30%;
+	background-color: #f2102b;
+}
+h1, h3{
+	padding: .5em;
+	border: .2em solid black;
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+footer{
+	clear: both;
+	text-align: center;
+	background-color: #999999;
+	padding: 2em;
+	margin:;
+}
