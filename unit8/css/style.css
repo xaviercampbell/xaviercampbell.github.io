@@ -6,23 +6,92 @@ body{
 	font-size: 24px;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
+#noteswrapper{
+	width:100%;
+}
+#background{
+	background-color: #15f444;
+}
+
+.hero-container{
+	background: url('../images/jam1.jpg');
+	height: 800px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.hero-container1{
+	background: url('../lotzofjars.jpg');
+	height: 800px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	margin:3em 0;
+}
+.hero-container2{
+	background: url('../catering.jpg');
+	height: 800px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:3em 0;
+}
+.hero-container3{
+	background: url('../jamjars.jpg');
+	height: 800px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:3em 0;
+}
+.hero-container4{
+	background: url('../stand.jpg');
+	height: 1000px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:4em 0;
+}
+#contacthero{
+	margin: 0 14em;
+}
+#marketlink{
+	color: white;
+}
+#noteshero{
+	margin: 0 7em;
+}
+
 .wrapper{
 	width:80%;
 	line-height: 1.5em;
 	margin: 0 5em;
+}
+.columnsone{
+	width:100%;
 }
 .focialpoint{
 	text-align: center;
 }
 #logo{
 	left: 0em;
-	width: 5%;
+	width: 8%;
 	position: absolute;
-
 }
+
 #focialpoint:hover> #logo{
 	opacity: 1;
-
+}
+#welcome{
+	color: red;
+	text-align: center;
+	line-height: 4em;
+	border: none;
+}
+#contacth1{
+	color: blue;
+	text-align: center;
+	line-height:3em;
+	border:none;
+}
+#contacth3{
+	text-align: center;
 }
 #focialpoint{
 	padding: 2em;
@@ -31,11 +100,35 @@ body{
 	border: .5em solid black;
 	margin: 0 2em 0 2em;*/
 }
+#focialpoint12{
+	padding: 2em;
+	text-align: center;
+	background-color: white;
+}
+#jars{
+	margin: 0 17em;
+}
+#catterpic{
+	margin: 0 10em;
+}
 nav a{
 	padding: 2em;
 	color: #FFEE00;
 	text-decoration: none;
 
+}
+
+
+label{
+	padding: 2em;
+	color: #FFEE00;
+	text-decoration: none;
+	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	display: none;
+}
+#toggle{
+	display: none;
 }
 /*a:hover{
 	background-color: red;
@@ -56,15 +149,15 @@ nav a{
 	line-height: 1em;
 	border: none;
 }
+#contacth3{
+	color: red;
+	padding: 0em;
+	border: none;
+}
 #hearts{
 	color:red;
 }
-#heroimg{
-	display: block;
-	width: 50%;
-	padding: 2em;
-	margin: 0 10em;
-}
+
 article{
 	float: left;
 	padding: 2em;
@@ -74,12 +167,37 @@ article{
 	height: 24.4em;
 	
 }
+/*article {
+    float: left;
+    padding: 2em;
+    border: 1.5em;
+    /* width: 31%; */
+    /*background-color: #6e64a1;*/
+    /*height: 24.4em;*/
+
+
+
 aside{
 	float: right;
 	padding: 2em;
 	border: 1.5em;
 	width: 30%;
 	background-color: #f2102b;
+}
+#nu1{
+	float: right;
+}
+#jamuses{
+	float: left;
+}
+#aone, #atwo, #athree, #afour{
+	width: 15%;
+}
+#atwo #athree{
+	float: right;
+}
+#aone, #afour{
+	float:left;
 }
 h1, h3{
 	padding: .5em;
@@ -99,6 +217,12 @@ h1, h3{
 	padding:2em;
 	margin-left: 20em;
 }
+#nutritiontop, #catteringtop{
+	color: red;
+	text-align: center;
+	padding:2em;
+	margin-left: 24em;
+}
 footer{
 	clear: both;
 	text-align: center;
@@ -106,31 +230,60 @@ footer{
 	padding: 2em;
 	margin:;
 }
+#contactfooter{
+	clear: both;
+	text-align: center;
+	background-color: #999999;
+	padding: 3em;
+	margin:;
+}
+}
 @media screen and (max-width: 1340px){
 	article{
 		height:622.2px;
 	}
 
 }
-@media screen and (max-width: 1264px) and (min-width: 1233){
+
+@media screen and (max-width: 1264px){
 	article, aside {
 		width: 40%;
 		padding:1.5em;
 	}
+	aside{
+		height: 25.9em ;
+	}
 }
-@media screen and(max-width: 1232px) and (min-width: 1225px){
+@media screen and (max-width: 1240px){
+	#focialpoint{
+		padding: 1em;
+	}
+}
+@media screen and(max-width: 1239px){
+	#focialpoint{
+		padding: 1em;
+	}
 	article,aside{
 	float: none;
-
-
-	}
+}
 	article{
 		padding: 2em;
 		transform:translateX( 50%);
-
 	}
 	aside{
 		margin-right: 8em;
+	}
+	footer{
+		padding: 1em;
+	}
+}
+@media screen and (max-width: 1229px){
+	article, aside{
+			width: 50%;
+	}
+	aside{
+			margin-right: 8.7em;
+			margin-top: 1em;
 	}
 }
 @media screen and (max-width: 1219px){
@@ -141,55 +294,88 @@ footer{
 		padding: .5em;
 	}
 }
+@media screen and (max-width: 1115px){
+	aside{
+		margin-right:7.8em 
+	}
+}@media screen and (max-width: 1013px){
+	article{
+	margin-right: 5.5em;
+}
+}
+@media screen and (max-width: 997px){
+	aside{
+		margin-right: 5em;
+	}
+	#top{
+		margin-left: 14em;
+	}
+}
+
 /*@media screen and (max-width: 1225px){
 	aside{
 		transform:translatex(-50%);
 	}
 }*/
-@media screen and (max-width: 860px){
-	Nav a{
+@media screen and (max-width: 886px){
+
+	nav a{
 		display: block;
 		padding: 2em;
-	
-		.focialpoint{ 
-			text-align: center;
-		}
-		#fpone{
-			top: 3em;
-			padding: 2em;
-			line-height: 1.5em;
-		}
-		article, aside{
-			width: 50%;
-		}
-		article{
-			margin-left: 4em;
-		}
-		aside{
-			margin-right: 5.8em;
-		}
-		#heroimg{
-			width: 30%;
-		}
 	}
+	.focialpoint{ 
+		text-align: center;
+	}
+	#fpone{
+		top: 3em;
+		padding: 2em;
+		line-height: 1.5em;
+	}
+	article, aside{
+		width: 50%;
+		line-height:1em;
+	}
+	article{
+		margin-left: 5.6em;
+	}
+	aside{
+		margin-right: 5.8em;
+	}
+	.hero-container{
+		height: 600px;
+	}
+	#top{
+		margin-left: 10em;
+	}
+
 }
-@media screen and (max-width: 886px) (min-width: 841px){
+/*@media screen and (max-width: 886px) and (min-width: 841px){
 	#heroimg{
 		margin: 0 5em;
 	}
 	article, aside{
-		line-height: 1.1em;}
-}
-@media screen and (max-width: 840px) (min-width: 771px){
+		line-height: 1.1em;
+		margin: 0 5em;
+	}
+}*/
+
+@media screen and (max-width: 780px){
 	#heroimg{
 		margin: 0 8em;
-	}
-	#focialpoint{
-	margin-left: 8.5em
 }
+	label{
+		display: block;
+	}
+	nav{
+		display: none;
+	}
+	#toggle:checked + nav{
+		display: block;
+
+	}
 }
 
-@media screen and (max-width: 700px) (min-width: 650px){
+@media screen and (max-width: 690px){
 	#focialpoint{
 		margin: 3em;
 
@@ -199,6 +385,7 @@ footer{
 	}
 	article{
 		line-height: 1em;
+		margin-left: 2em;
 	}
 	#top{
 		line-height: 1.5em;
@@ -207,8 +394,24 @@ footer{
 		margin-left: 8em;
 	}
 }
-@media screen and( max-width: 630px) and (min-width: )
+@media screen and (max-width: 590px){
+	 p{
+		line-height: .89em;
+	}
+} 
+@media screen and (max-width: 550px){
+	p{
 
+	}
+}
+
+
+
+
+
+/*
+@media screen and( max-width: 630px) and (min-width: ) {
+*/
 
 /*aside{
 	float: right;
@@ -236,3 +439,4 @@ footer{
 	padding: 2em;
 	margin:;
 }*/
+/*}*/
